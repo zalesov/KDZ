@@ -39,6 +39,7 @@ namespace List_of_products
             InitializeComponent();
             foreach (DataRow dr in ds.Tables[0].Rows)
             {
+
                 Products.Items.Add(dr.ItemArray[1].ToString());
             }
             if(vid==0)
